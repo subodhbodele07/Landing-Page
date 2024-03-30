@@ -1,0 +1,231 @@
+body{
+    background: url(bg7.webp);
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: "Montserrat", sans-serif;
+    color: WHITE;
+    margin: 0;
+}
+
+.header{
+    height: 2rem;
+    background-color: #008DDA;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.heading{
+    margin: 0;
+    font-size: 28px;
+    color: white;
+    font-weight: 900;
+    cursor: pointer;
+}
+
+.nav{
+    display: flex;
+}
+
+@media(max-width: 900px){
+    .nav{
+        display: none;
+    }
+}
+
+.nav a{
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 20px;
+    margin-right: 3rem;
+}
+
+.nav a:hover{
+    text-decoration: underline;
+}
+
+.login{
+    padding-right: 20px;
+}
+
+.login button{
+    background-color: transparent;
+    color: white;
+    font-size: 15px;
+    border-radius: 15px;
+    padding: 5px 20px;
+    margin-left: 15px;
+    font-weight: 700;
+    cursor: pointer;
+    border: 2px solid white;
+}
+
+.login button:hover{
+    box-shadow: 2px 2px 10px black;
+}
+
+@media(max-width: 1010px){
+    .btn2{
+        display: none;
+    }
+}
+
+.main-content{
+    display: flex;
+    display: flexbox;
+    padding: 10px;
+}
+
+@media(max-width: 900px){
+    .main-content{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+
+.main-content-info{
+    width: 60%;
+    padding: 140px 0 140px 150px;
+}
+
+.main-content-info h2{
+    margin-bottom: 0;
+    font-size: 50px;
+}
+
+.main-content-info h1{
+    margin: 0;
+    color: yellow;
+    font-weight: 900;
+    font-size: 71px;
+}
+
+.main-content-info p{
+    font-size: 15px;
+    line-height: 22px;
+}
+
+.donate-now{
+    width: 43%;
+    margin-top: 50px;
+}
+
+.donate-now-box{
+    margin-left: 20px;
+    height: 500px;
+    width: 300px;
+    background-color: #41C9E2;
+    padding: 30px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.donate-now-head{
+    margin-bottom: 0;
+    color: black;
+    font-size: 38px;
+    font-weight: 900;
+}
+
+.donate-now-p{
+    margin-top: 0;
+    color: black;
+    font-size: 13px;
+}
+
+.grid{
+    display: grid;
+}
+
+.grid input{
+    margin-bottom: 10px;
+    height: 40px;
+    text-align: center;
+}
+
+.grid input:hover{
+    box-shadow: 1px 1px 2px black;
+}
+
+.grid button{
+    margin-top: 10px;
+    height: 50px;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.grid button:hover{
+    background-color: white;
+    color: black;
+}
+
+.page2{
+    margin-top: 100px;
+}
+
+.mission{
+    text-align: center;
+}
+
+.mission1 h1{
+    font-size: 45px;
+    font-weight: 900;
+    margin-bottom: 20px;
+}
+
+.mission1 p{
+    margin: 0 200px;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+.mission button{
+    font-size: 18px;
+    padding: 8px;
+    border-radius: 15px;
+    background-color: rgba(255, 255, 0, 0.8);
+    color: black;
+    font-weight: 700;
+    margin-bottom: 80px;
+}
+
+.mission button:hover{
+    background-color: black;
+    color: white;
+}
+
+.end{
+    text-align: center;
+}
+
+.end h1{
+    font-size: 50px;
+    margin-bottom: 0;
+    font-weight: 800;
+}
+
+.end p{
+    margin: 0;
+    margin-bottom: 30px;
+}
+
+footer{
+    height: 1rem;
+    background-color:#008DDA;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icons i{
+    font-size: 25px;
+    margin: auto 15px;
+    opacity: 0.75;
+}
+
+.icons i:hover{
+    opacity: 1;
+}
